@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'input_output_basic';
+
+  testName = 'Jenny'
+  user = {
+    name:'Lisa',
+    age:'18',
+    country:'Japan'
+  }
+  users = ['John', 'Kyle']
+  addUser(user:any){
+    this.users.push(user)
+  }
 }
